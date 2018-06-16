@@ -1,7 +1,6 @@
 <?php
 require_once "cssPropertyCheck.php";
 
-CPC::scrapeCSSListToJson();
 $result=CPC::cssPropCheck("div","font-color");
 if(is_string($result)){
     echo $result;
