@@ -16,6 +16,8 @@ CSSプロパティが正しいかを判定する関数．
     指定リンクよりABC順のグループとCSSプロパティ群をスクレイピングし，連想配列にまとめJSONファイルとして保存する．
 
 ### 使い方
+- 本コードでは**phpQuery-onefile.php**を使用しているので，これを以下リンクからダウンロードする．
+    - [phpquery | Google Code](https://code.google.com/archive/p/phpquery/downloads)
 - test.phpを参考に．
     - 取得したHTMLタグ（セレクタ）とCSSプロパティを関数 **cssPropCheck()** に渡して実行する．
     - **is_string()** で戻り値の判定を行い，エラー文を表示させるなど．
